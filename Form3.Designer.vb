@@ -28,10 +28,6 @@ Partial Class Form3
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -49,6 +45,10 @@ Partial Class Form3
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -106,38 +106,6 @@ Partial Class Form3
         Me.Label2.Size = New System.Drawing.Size(78, 18)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Valor Real"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(209, 180)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 6
-        Me.TextBox3.Visible = False
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(209, 251)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 7
-        Me.TextBox4.Visible = False
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(407, 179)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox5.TabIndex = 8
-        Me.TextBox5.Visible = False
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(407, 251)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox6.TabIndex = 9
-        Me.TextBox6.Visible = False
         '
         'Button3
         '
@@ -284,11 +252,55 @@ Partial Class Form3
         Me.Label8.Size = New System.Drawing.Size(0, 13)
         Me.Label8.TabIndex = 26
         '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(234, 183)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(39, 13)
+        Me.Label9.TabIndex = 27
+        Me.Label9.Text = "Label9"
+        Me.Label9.Visible = False
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(440, 183)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(45, 13)
+        Me.Label10.TabIndex = 28
+        Me.Label10.Text = "Label10"
+        Me.Label10.Visible = False
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(237, 257)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(45, 13)
+        Me.Label11.TabIndex = 29
+        Me.Label11.Text = "Label11"
+        Me.Label11.Visible = False
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(443, 257)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(45, 13)
+        Me.Label12.TabIndex = 30
+        Me.Label12.Text = "Label12"
+        Me.Label12.Visible = False
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(711, 289)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -306,10 +318,6 @@ Partial Class Form3
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
@@ -333,10 +341,6 @@ Partial Class Form3
     Friend WithEvents Button2 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
@@ -354,4 +358,8 @@ Partial Class Form3
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
 End Class

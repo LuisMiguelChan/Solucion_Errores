@@ -13,3 +13,17 @@ C:\Users\jtyhr\Documents\Errores\Solucion_Errores\obj\Debug\Solucion_Errores.xml
 C:\Users\jtyhr\Documents\Errores\Solucion_Errores\obj\Debug\Solucion_Errores.pdb
 C:\Users\jtyhr\Documents\Errores\Solucion_Errores\obj\Debug\Solucion_Errores.Form3.resources
 C:\Users\jtyhr\Documents\Errores\Solucion_Errores\obj\Debug\Solucion_Errores.Form4.resources
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\bin\Debug\Solucion_Errores.exe.config
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\bin\Debug\Solucion_Errores.exe
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\bin\Debug\Solucion_Errores.pdb
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\bin\Debug\Solucion_Errores.xml
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.vbprojAssemblyReference.cache
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.Form1.resources
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.Form2.resources
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.Form3.resources
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.Resources.resources
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.vbproj.GenerateResource.cache
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.vbproj.CoreCompileInputs.cache
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.exe
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.xml
+C:\Users\jtyhr\Source\Repos\LuisMiguelChan\Solucion_Errores\obj\Debug\Solucion_Errores.pdb
