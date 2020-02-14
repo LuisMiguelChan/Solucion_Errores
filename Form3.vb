@@ -1,14 +1,18 @@
 ﻿Public Class Form3
+
     Private Sub Form2_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         Form2.Show()
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim valor As Integer = NumericUpDown1.Value
-        Dim resultado As String
+        Dim valor2 As Double
+        valor2 = Convert.ToDouble(TextBox7.Text)
+        Dim subs As String
         Label9.Visible = True
-        resultado = FormatNumber(TextBox7.Text, valor)
-        Label9.Text = resultado
+        Label9.Text = valor2
+        subs = Microsoft.VisualBasic.Left(Label9.Text, (valor + 2))
+        Label9.Text = subs
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
@@ -20,12 +24,13 @@
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Dim valor As Integer = NumericUpDown3.Value
-        Dim nuevo As Integer
-        For i = 1 To valor Step 1
-            nuevo *= 10
-        Next i
+        Dim valor2 As Double
+        valor2 = Convert.ToDouble(TextBox8.Text)
+        Dim subs As String
         Label11.Visible = True
-        Label11.Text = Math.Truncate(Convert.ToDouble(TextBox8.Text * nuevo))
+        Label11.Text = valor2
+        subs = Microsoft.VisualBasic.Left(Label11.Text, (valor + 2))
+        Label11.Text = subs
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
