@@ -57,6 +57,8 @@
         Label12.Visible = False
         TextBox7.Text = ""
         TextBox8.Text = ""
+        TextBox7.visible = False
+        TextBox8.visible = False
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -71,6 +73,11 @@
         Button4.Enabled = False
         Button5.Enabled = False
         Button6.Enabled = False
+        If (Me.TextBox1.Text.Length > 0 Or Me.TextBox2.Text.Length > 0) Then
+            Button7.Enabled = True
+        Else
+            Button7.Enabled = False
+        End If
     End Sub
 
     Private Sub TextBox7_TextChanged(sender As Object, e As EventArgs) Handles TextBox7.TextChanged
